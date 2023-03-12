@@ -1,5 +1,3 @@
-do local ui =  game:GetService("CoreGui"):FindFirstChild("ScreenGui")  if ui then ui:Destroy() end end
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local ImageLabel = Instance.new("ImageLabel")
@@ -15,13 +13,11 @@ ImageLabel.Parent = ScreenGui
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Size = UDim2.new(1, 0, 1, 0)
 ImageLabel.Image = "http://www.roblox.com/asset/?id=12730188585"
-wait(0.10)
-ui:Destroy()
 
 -----------------------------
 Sound = Instance.new("Sound", game:GetService("Workspace"))
 Sound.Name = "XXX"
-Sound.SoundId = "rbxassetid://6911766512"
+Sound.SoundId = "rbxassetid://4735318048"
 Sound.Looped = false
 Sound.Playing = true 
 Sound.Volume = 100
